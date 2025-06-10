@@ -1,0 +1,24 @@
+{
+  "name": "groom-deep-dive-advanced",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "biome check --write .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react-oxc": "^0.2.2",
+    "typescript": "~5.8.3",
+    "vite": "npm:rolldown-vite@latest"
+  }
+}
